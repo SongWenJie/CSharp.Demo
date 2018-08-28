@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{F6C753A3-C6F1-4786-874A-A2F2D81BDEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{39590BFA-B3A5-40C0-82EA-9733CF806816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C753A3-C6F1-4786-874A-A2F2D81BDEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C753A3-C6F1-4786-874A-A2F2D81BDEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C753A3-C6F1-4786-874A-A2F2D81BDEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C753A3-C6F1-4786-874A-A2F2D81BDEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39590BFA-B3A5-40C0-82EA-9733CF806816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39590BFA-B3A5-40C0-82EA-9733CF806816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39590BFA-B3A5-40C0-82EA-9733CF806816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39590BFA-B3A5-40C0-82EA-9733CF806816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26917766-EA63-482B-9A3C-E48AD31274C6}
+	EndGlobalSection
+EndGlobal
