@@ -43,6 +43,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefactoreAbstraction\ConsoleLogger.cs" />
+    <Compile Include="RefactoreAbstraction\ILogger.cs" />
+    <Compile Include="RefactoreAbstraction\ITradeDataProvider.cs" />
+    <Compile Include="RefactoreAbstraction\ITradeMapper.cs" />
+    <Compile Include="RefactoreAbstraction\ITradeParser.cs" />
+    <Compile Include="RefactoreAbstraction\ITradeStorage.cs" />
+    <Compile Include="RefactoreAbstraction\ITradeValidator.cs" />
+    <Compile Include="RefactoreAbstraction\SimpleTradeValidator.cs" />
+    <Compile Include="RefactoreAbstraction\SqlTradeStorage.cs" />
+    <Compile Include="RefactoreAbstraction\StreamTradeDataProvider.cs" />
+    <Compile Include="RefactoreAbstraction\TradeParser.cs" />
+    <Compile Include="RefactoreAbstraction\TradeProcessor.cs" />
+    <Compile Include="RefactoreAbstraction\TradeRecordMapper.cs" />
     <Compile Include="TradeProcessor.cs" />
     <Compile Include="TradeProcessor1.cs" />
   </ItemGroup>
